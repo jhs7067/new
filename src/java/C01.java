@@ -1,4 +1,4 @@
-package pack_java_20220317;
+package java;
 
 public class C01 {
 
