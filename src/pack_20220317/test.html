@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+
+    // function test() {
+    //     var num = 5;
+
+    //     label1:
+    //     for(var i=0; i<5; i++) {
+    //         for(var j=0; j<5; j++) {
+    //             break label1;
+    //         }
+    //     }
+    // }
+    
+    // let str = '{
+    //     "key1" "value1"
+    //     "key2" "value2"
+    //     "key3" "value3"
+    // }';
+
+    let obj1 = {
+        "key1": "value1",
+        "key2": "value2",
+        "key3": "value3",
+    };
+
+    let obj2 = obj.filter(value => value == "value2");
+
+    let json1 = JSON.stringify(obj);
+
+    let json2 = JSON.stringify(obj, ["key2"]);
+
+
+
+
+    // console.log("str: ", str);
+    console.log("obj1: ", obj1);
+    console.log("obj2: ", obj2);
+    console.log("json1: ", json1);
+    console.log("json2: ", json2);
+
+
+
+
+</script>
+</html>

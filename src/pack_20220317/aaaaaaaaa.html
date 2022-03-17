@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>연습중</title>
+<meta charset="utf-8">
+<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+<body>
+	<p>before</p>
+	<input type="button" id="b1" value="버튼"></input>
+</body>
+<script>
+
+$("#b1").click(function() {
+
+	var str = $("p").html();
+	var obj = {};
+
+	if(str == "before") {
+		str = "after";
+		obj = {"background-color": "red"};
+	} else {
+		str = "before";
+		obj = {"background-color": "gray"};
+	}
+	
+	$("p").html(str);
+	$("#b1").css(obj);
+
+});
+
+</script>
+</html>

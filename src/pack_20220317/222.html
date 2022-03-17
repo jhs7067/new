@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>연습용</title>
+    <meta charset="UTF-8">
+    <style>
+    </style>
+    <!-- <script src="scripts/jquery-1.6.2.min.js"></script> -->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+<body>
+    <p style="border:1px solid black">hello</p>
+</body>
+<script>
+    $(document).ready(function() {
+        // $('p').css({"border": "1px solid black"});
+
+        $('p').attr("style", "border: 5px solid red")
+
+        console.log(window.history);
+    });
+</script>
+</html>
